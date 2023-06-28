@@ -1,4 +1,6 @@
 @use 'variaveis';
+@use 'noticias';
+@use 'header';
 
 
 *{
@@ -21,43 +23,8 @@ body{
   padding: 16px 64px;
 }
 
-.header-container{
-  background-image: url('../images/imgHeader.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; 
-  display: flex;
-  align-items: flex-start;
-}
-
-
-.header-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.nav-list{
-  display: flex;
-  gap: 24px
-}
-
-.nav-list-item a{
-  font-size: 18px;
-  color: #000;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 8px;
-  transition: 0.2s;
-}
-
-.nav-list-item a:hover{
-  color: #E60000;
-}
-
 #botao{
-  color: #E60000;
+  color: variaveis.$corTextoBotao;
   background-size: contain;
   box-shadow: 0 12px 24px rgba(63,101,97,.3);
   font-size: 18px;
@@ -67,9 +34,5 @@ body{
   min-width: 108px;
   background-image: url('../images/fundoBotao.png');
   border-radius: 8px;
-}
-
-.header-image{
-  width: 100%;
 }
 
