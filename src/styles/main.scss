@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-  padding: 16px 64px;
+  padding: 16px 48px;
 }
 
 #botao{
@@ -34,5 +34,6 @@ body{
   min-width: 108px;
   background-image: url('../images/fundoBotao.png');
   border-radius: 8px;
+  white-space: nowrap;
 }
 
