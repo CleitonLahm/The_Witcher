@@ -37,3 +37,15 @@ body{
   white-space: nowrap;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.dev a{
+  color: rgb(74, 74, 245);
+}
+

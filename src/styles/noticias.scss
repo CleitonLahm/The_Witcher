@@ -32,3 +32,48 @@
 .noticias-lista-item a:hover{
   color: variaveis.$corTextoBotao;
 }
+
+
+@media (max-width: 1080px) {
+  .logo{
+    width: 280px;
+  }
+
+  .nav-list{
+    gap: 0px;
+  }
+}
+
+@media (max-width: 1000px){
+  .noticias h1{
+    font-size: 2.3em;
+  }
+}
+
+@media (max-width: 780px) {
+  .noticias h1{
+    font-size: 2em;
+  }
+
+  .noticias-lista-item h3{
+    font-size: 1.5em;
+  }
+
+  .noticias-lista-item a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .noticias-lista{
+    grid-template-columns: 1fr;
+  }
+
+  .noticias-lista-item h3{
+    font-size: 2em;
+  }
+
+  .noticias-lista-item a{
+    font-size: 18px;
+  }
+}
